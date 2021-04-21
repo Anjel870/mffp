@@ -1,0 +1,204 @@
+
+body{
+  Font size: 15px;
+  margin: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
+
+.main{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  height: 440px;
+  width:840px;
+  position: relative;
+}
+
+.left{
+  background-color: hsl(31, 77%, 52%);
+  height: 360px;
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  left: 0;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 40px;
+  border-top-left-radius: 4%;
+  border-bottom-left-radius: 4%;
+}
+
+.middle{
+  background-color: hsl(184, 100%, 22%);
+  height: 360px;
+  width: 200px;
+  display: inline-block;
+  position: absolute;
+  left: 280px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 40px;
+}
+
+.right{
+  background-color: hsl(179, 100%, 13%);
+  height: 360px;
+  width: 200px;
+  display: inline-block;
+  position: absolute;
+  left: 560px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 40px;
+  border-top-right-radius: 4%;
+  border-bottom-right-radius: 4%;
+}
+
+.left-btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 100px;
+   color: #E38826;
+   font-family: Arial;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 14px;
+   background-color: #FFFFFF;
+   text-decoration: none;
+   display:block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 70px;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-left-width: 0px;
+   border-bottom-width: 0px;
+   border-color: white;
+   border-top-color : white;
+   border-right-color : white;
+   border-bottom-color : white;
+   border-left-color : white;
+}
+
+.left-btn:hover {
+   background: #E38826;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 100px;
+   text-decoration: none;
+   color: hsl(0, 0%, 95%);
+
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-color: white ;
+    border-top-color : white;
+    border-right-color : white;
+    border-bottom-color : white;
+    border-left-color : white;
+}
+
+.middle-btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 100px;
+   color: hsl(184, 100%, 22%);
+   font-family: Arial;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 14px;
+   background-color: #FFFFFF;
+   text-decoration: none;
+   display:block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 70px;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-left-width: 0px;
+   border-bottom-width: 0px;
+   border-color: white;
+   border-top-color : white;
+   border-right-color : white;
+   border-bottom-color : white;
+   border-left-color : white;
+}
+
+.middle-btn:hover {
+   background: hsl(184, 100%, 22%);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 100px;
+   text-decoration: none;
+   color: hsl(0, 0%, 95%);
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-left-width: 1px;
+   border-bottom-width: 1px;
+   border-color: white ;
+   border-top-color : white;
+   border-right-color : white;
+   border-bottom-color : white;
+   border-left-color : white;
+}
+
+.right-btn {
+   -webkit-border-radius: 80px;
+   -moz-border-radius: 80px;
+   border-radius: 100px;
+   color: hsl(179, 100%, 13%);
+   font-family: Arial;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 14px;
+   background-color: #FFFFFF;
+   text-decoration: none;
+   display:block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 70px;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-left-width: 0px;
+   border-bottom-width: 0px;
+   border-color: white;
+   border-top-color : white;
+   border-right-color : white;
+   border-bottom-color : white;
+   border-left-color : white;
+}
+
+.right-btn:hover {
+   background: hsl(179, 100%, 13%);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 100px;
+   text-decoration: none;
+   color: hsl(0, 0%, 95%);
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-left-width: 1px;
+   border-bottom-width: 1px;
+   border-color: white ;
+   border-top-color : white;
+   border-right-color : white;
+   border-bottom-color : white;
+   border-left-color : white;
+}
+
+.attribution{
+  margin-top: 50px;
+}
